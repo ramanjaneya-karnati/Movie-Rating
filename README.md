@@ -1,7 +1,6 @@
 
-## Available Scripts
+## Project Setup
 
-In the project directory, you can run:
 
 ### `clone the project`
 
