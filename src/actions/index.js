@@ -1,0 +1,14 @@
+export const Actions = {
+  COMPONENT_INITIALIZING: 'COMPONENT_INITIALIZING',
+  CHANGE_MOVIE_RATING: 'CHANGE_MOVIE_RATING',
+  START_RANDOM_RATING: 'START_RANDOM_RATING',
+  STOP_RANDOM_RATING: 'STOP_RANDOM_RATING',
+  RANDOM_RATING_TEXT_CHANGE: 'RANDOM_RATING_TEXT_CHANGE'
+};
+
+export function raiseAction(type, payload) {
+  return {
+    type,
+    payload
+  }
+}

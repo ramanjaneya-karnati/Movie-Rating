@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TopNav Component Testing renderer snapshot 1`] = `
+<div
+  className="navbar navbar-expand-lg fixed-top navbar-dark bg-primary"
+>
+  <div
+    className="container"
+  >
+    <a
+      className="navbar-brand"
+      href="http://localhost/"
+    >
+      Movie Rating App
+    </a>
+    <button
+      aria-controls="navbarResponsive"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+      className="navbar-toggler"
+      data-target="#navbarResponsive"
+      data-toggle="collapse"
+      type="button"
+    >
+      <span
+        className="navbar-toggler-icon"
+      />
+    </button>
+  </div>
+</div>
+`;
