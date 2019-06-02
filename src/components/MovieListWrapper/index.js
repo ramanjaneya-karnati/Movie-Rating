@@ -2,6 +2,7 @@ import React from 'react';
 import MoviesList from '../MovieList/index'
 import TopNav from '../TopNav/index'
 import {Button, Icon, Label} from 'semantic-ui-react'
+import {APP_LABELS} from '../../constants/AppLabels'
 
 export default class App extends React.Component {
 
@@ -29,12 +30,12 @@ export default class App extends React.Component {
                             isRandRatingPlaying ? (
                                     <div>
                                         <Icon name='pause'/>
-                                        Stop Random Rating
+                                        {APP_LABELS.STOP_RANDOM_RATING}
                                     </div>
                                 ) :
                                 (<div>
                                     <Icon name='play'/>
-                                    Start Random Rating
+                                    {APP_LABELS.START_RANDOM_RATING}
                                 </div>)
                         }
 

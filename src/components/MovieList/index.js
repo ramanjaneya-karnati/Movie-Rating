@@ -1,6 +1,7 @@
 import React from 'react';
 import {Table, Image} from 'semantic-ui-react'
 import StarRatingComponent from 'react-star-rating-component';
+import {APP_LABELS} from '../../constants/AppLabels';
 
 export default class MoviesList extends React.Component {
 
@@ -45,11 +46,11 @@ export default class MoviesList extends React.Component {
             <Table celled>
                 <Table.Header>
                     <Table.Row>
-                        <Table.HeaderCell singleLine>Movie Cover</Table.HeaderCell>
-                        <Table.HeaderCell>Movie Name</Table.HeaderCell>
-                        <Table.HeaderCell>Released Date</Table.HeaderCell>
-                        <Table.HeaderCell>Rating</Table.HeaderCell>
-                        <Table.HeaderCell>Story</Table.HeaderCell>
+                        <Table.HeaderCell singleLine>{APP_LABELS.MOVIE_COVER}</Table.HeaderCell>
+                        <Table.HeaderCell>{APP_LABELS.MOVIE_NAME}</Table.HeaderCell>
+                        <Table.HeaderCell>{APP_LABELS.RELEASED_DATE}</Table.HeaderCell>
+                        <Table.HeaderCell>{APP_LABELS.RATING}</Table.HeaderCell>
+                        <Table.HeaderCell>{APP_LABELS.STORY}</Table.HeaderCell>
                     </Table.Row>
                 </Table.Header>
 
